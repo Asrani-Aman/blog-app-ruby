@@ -14,5 +14,5 @@ test:
 production:
   <<: *default
   database: blog_app_for_odnin_project_productions
-  username: myapp
-  password: <%= ENV["MYAPP_DATABASE_PASSWORD"]%>
+  username: blog_app_for_odnin_project_username
+  password: <%= ENV["OP_BLOG_APP_DATABASE_PASSWORD"]%>
