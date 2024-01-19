@@ -7,3 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Blog.create(title:"first seed blog", body: "the body of the first seed blog")
+Blog.create(title:"second seed blog", body: "the body of the second seed blog")
